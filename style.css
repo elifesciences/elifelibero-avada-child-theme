@@ -1,0 +1,3036 @@
+/*
+Theme Name: Elifelibero Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+Bitbucket Theme URI: https://bitbucket.org/dd-child-themes/elifelibero-avada-child-theme
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a {
+    font-family: "Noto Sans", Arial, Sans-Serif;
+}
+
+
+.signing td {
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.signing {
+    border-collapse: collapse;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+
+
+
+
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) h2,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) h3,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) h4,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) h5,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) h6 {
+    margin-bottom: 24px !important;
+    padding-top: 24px !important;
+}
+
+
+
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) .post-subtitle h4,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) .get-in-touch-section h2 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) .post-subtitle {
+    padding-bottom: 0 !important;
+}
+
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) .elife-supported p,
+body:not(.page-id-8):not(.page-id-9):not(.page-id-10):not(.page-id-626):not(.page-id-10):not(.page-id-11):not(.page-id-12):not(.page-id-13) .get-in-touch-section h2 {
+    margin-bottom: 0 !important;
+}
+
+
+.grecaptcha-badge {
+    visibility: collapse;
+}
+
+.image-caption {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+}
+
+#main {
+    padding-bottom: 0 !important;
+}
+
+p {
+    margin-bottom: 24px !important;
+}
+
+.page-id-8 p,
+.page-id-9 p,
+.page-id-626 p,
+.page-id-10 p,
+.page-id-11 p,
+.page-id-12 p,
+.page-id-213 p {
+    margin-bottom: 0 !important;
+}
+
+h1 {
+    /* 	margin-bottom: 4px !important; */
+}
+
+.page-id-8 h1,
+.page-id-9 h1,
+.page-id-626 h1,
+.page-id-10 h1,
+.page-id-11 h1,
+.page-id-12 h1,
+.page-id-213 h1 {
+    /* 	margin-bottom: 24px !important; */
+}
+
+
+.fusion-logo-link {
+    width: 110px !important;
+}
+
+.fusion-logo img {
+    max-height: 32px;
+    width: 100%;
+}
+
+a:hover {
+    color: #d93e74 !important;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600;
+}
+
+
+/* MENU */
+.fusion-mobile-logo {
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+
+
+.menu-item a {
+    transition: 0.2s ease-in-out;
+    line-height: 16px;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-weight: 600;
+    color: #212121;
+}
+
+.menu-item:hover:after {
+    content: " ";
+    position: absolute;
+    /*   top: 5px; */
+    bottom: 9px;
+    width: 12px;
+    left: 27%;
+    background-color: #CF0C4E;
+    height: 3px;
+    border-radius: 2px;
+}
+
+#menu-main .current-page-ancestor:after {
+    content: " ";
+    position: absolute;
+    /*   top: 5px; */
+    bottom: 9px;
+    width: 12px;
+    left: 27%;
+    background-color: #CF0C4E;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.right-menu:hover:after {
+    display: none;
+}
+
+.menu-item a:hover {
+    text-decoration: none;
+}
+
+#menu-main .current-menu-item:after {
+    content: " ";
+    position: absolute;
+    /*   top: 5px; */
+    bottom: 9px;
+    width: 12px;
+    left: 27%;
+    background-color: #CF0C4E;
+    height: 3px;
+    border-radius: 2px;
+}
+
+#menu-item-19:after,
+#menu-item,
+#menu-item-19:hover:after {
+    left: 22% !important;
+}
+
+#menu-item-14:after,
+#menu-item-14:hover:after {
+    left: 30% !important;
+}
+
+#menu-item-15:after,
+#menu-item-15:hover:after {
+    left: 32% !important;
+}
+
+#menu-item-18:after,
+#menu-item-18:hover:after {
+    left: 18% !important;
+}
+
+.right-menu a span {
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 6px 10px;
+    transition: 0.2s;
+    line-height: 16px;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-weight: 600;
+    color: #cf0c4e;
+    min-height: 32px;
+    min-width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-id-8 .right-menu a span,
+.page-id-626 .right-menu a span {
+    border: 2px solid #FFFFFF;
+    color: #ffffff;
+}
+
+.right-menu a span:hover {
+    background: #ffffff;
+    color: #212121;
+}
+
+.right-menu a:hover {
+    opacity: 1;
+}
+
+.fusion-sticky-shadow .right-menu a span {
+    border-color: #212121;
+}
+
+.fusion-sticky-shadow .right-menu a span:hover {
+    border-color: #cf0c4e;
+}
+
+
+
+.fusion-flyout-menu-bg,
+.fusion-mobile-nav-holder {
+    width: 80%;
+    margin-left: 30%;
+    background: #ffffff !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 72px !important;
+}
+
+.fusion-mobile-nav-holder {
+    height: 100% !important;
+}
+
+.fusion-mobile-nav-item a {
+    padding: 2px 24px 12px 24px;
+    line-height: 24px !important;
+}
+
+.fusion-mobile-nav-item a span {
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.fusion-flyout-menu-bg {
+    -webkit-box-shadow: -50px 0px 50px 50px rgba(0, 0, 0, 0.4);
+    box-shadow: -150px 0px 150px 150px rgba(0, 0, 0, 0.4);
+}
+
+#mobile-menu-main {
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0px;
+}
+
+.fusion-mobile-nav-item {
+    padding-bottom: 0 !important;
+    padding-top: 10px !important;
+}
+
+.fusion-mobile-nav-item a {
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.fusion-mobile-nav-item a:hover {
+    text-decoration: none;
+}
+
+.fusion-mobile-current-nav-item a:after {
+    content: " ";
+    position: absolute;
+    bottom: 4px;
+    height: 3px;
+    background: #CF0C4E;
+    width: 14px;
+    left: 24px;
+}
+
+#mobile-menu-item-18 a:after {
+    top: 42px;
+}
+
+
+#mobile-menu-main #mobile-menu-item-18 {
+    padding-bottom: 24px !important;
+}
+
+#mobile-menu-main .github-menu {
+    padding-top: 34px !important;
+}
+
+#mobile-menu-main #mobile-menu-item-18:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin-left: -100px;
+    height: 1px;
+    background: #dddddd;
+}
+
+
+
+
+/* Home */
+
+.showcase-title {
+    color: #ffffff !important;
+    margin-bottom: 16px;
+}
+
+.showcase-news .fusion-column-wrapper {
+    max-width: 336px;
+}
+
+.home-first p {
+    color: #ffffff;
+}
+
+
+.showcase-left-text {
+    padding-right: 24px;
+}
+
+
+.showcase-signup-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.page-id-626 .fusion-header {
+    background-color: #451339;
+}
+
+.page-id-8 .fusion-logo a img,
+.page-id-626 .fusion-logo a img {
+    display: none;
+}
+
+.page-id-8 .menu-text,
+.page-id-626 .menu-text {
+    color: #ffffff;
+}
+
+.fusion-logo a {
+    background: url('/wp-content/uploads/2019/07/libero-logo-48px.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: right;
+    margin-left: -5px;
+    width: 116px !important;
+}
+
+.fusion-logo {
+    width: 116px;
+}
+
+
+.page-id-8 .fusion-logo a,
+.page-id-626 .fusion-logo a {
+    background: url('/wp-content/uploads/2019/07/libero-logo-mono-48px.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 48px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    margin-left: -5px;
+    width: 116px;
+}
+
+.page-id-8 .fusion-logo,
+.page-id-626 .fusion-logo {
+    width: 116px;
+}
+
+.fusion-logo a img {
+    display: none;
+}
+
+
+
+
+.page-id-8 .fusion-sticky-shadow .fusion-logo a,
+.page-id-626 .fusion-sticky-shadow .fusion-logo a {
+    background: url('/wp-content/uploads/2019/06/libero-white.svg');
+    background-size: cover;
+    height: 48px;
+    width: 116px;
+    /* margin-top: -28px !important; */
+}
+
+.page-id-8 .fusion-sticky-shadow .menu-text,
+.page-id-626 .fusion-sticky-shadow .menu-text {
+    color: #212121;
+}
+
+
+
+
+.page-id-8 #main,
+.page-id-626 #main {
+    padding-top: 0;
+}
+
+.showcase-signup span {
+    text-decoration: underline;
+}
+
+.showcase-signup:hover {
+    opacity: 0.7;
+}
+
+.standard-button {
+    color: #ffffff;
+    background-color: #CF0C4E !important;
+    border-radius: 4px !important;
+    padding: 16px !important;
+    min-height: 48px !important;
+    min-width: 168px;
+    transition: 0.2s ease-in-out;
+    line-height: 16px !important;
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    height: 48px;
+    text-transform: none !important;
+}
+
+.standard-button:hover {
+    color: #ffffff !important;
+    background: #7c072e !important;
+    text-decoration: none;
+
+}
+
+.standard-button:focus {
+    background: #e26d94 !important;
+}
+
+
+
+.showcase-news h5 {
+    margin: 0;
+    /* 	margin-top: 10px; */
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    line-height: 16px !important;
+}
+
+.showcase-news h5 span {
+    color: #666666 !important;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-weight: 600;
+}
+
+.showcase-news .fusion-recent-posts {
+    margin-bottom: 24px;
+}
+
+.showcase-news h4 {
+    margin: 0 !important;
+    color: #212121;
+    font-size: 16px !important;
+    font-weight: 400;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+}
+
+.showcase-news h4 a {
+    color: #212121;
+}
+
+.showcase-news h4 a:hover {
+    cursor: text;
+    color: #212121 !important;
+}
+
+.showcase-news .fusion-column-wrapper {
+    border-radius: 4px;
+    padding: 24px 24px 24px 24px !important;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.showcase-news-btn {
+    padding-bottom: 0;
+}
+
+.showcase-news-btn p {
+    margin: 0;
+}
+
+.showcase-news-btn a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Home second */
+.home-second p {
+    margin: 0;
+}
+
+.home-second {
+    margin-bottom: 24px !important;
+}
+
+.supporters-logos .fusion-row {
+    display: flex;
+    justify-content: center;
+}
+
+.supporters-logos .fusion-row:after {
+    display: none;
+}
+
+.supporters-logos span {
+    transition: 0.2s;
+}
+
+.supporters-logos span:hover {
+    cursor: pointer;
+}
+
+.home-second-section .supporters-images {
+    max-width: 192px;
+}
+
+
+
+.heading-h3:after,
+.page-template-default .fusion-page-title-wrapper:after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    height: 3px;
+    background: #CF0C4E;
+    width: 24px;
+    left: 47.5%;
+    border-radius: 2px;
+}
+
+.page-template-default .fusion-page-title-wrapper:after {
+    left: 49%;
+}
+
+.join-community-title:after {
+    left: 48.8%;
+    bottom: 0;
+}
+
+.get-in-touch-section .heading-h3:after {
+    left: 49%;
+}
+
+
+.page-id-9 .libero-products-page-title:after {
+    left: 49%;
+    bottom: 0;
+}
+
+.page-id-13 .heading-h3:after {
+    left: 49%;
+}
+
+.heading-h3-left:after {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    bottom: 9px;
+    border-bottom: 3px solid #CF0C4E;
+    width: 24px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.heading-h3-new:after {
+    content: " ";
+    position: absolute;
+    /* 	top: 35px; */
+    bottom: 0px;
+    border-bottom: 3px solid #CF0C4E;
+    width: 24px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.heading-h3-new h3 {
+    margin-top: 0;
+}
+
+.publishing-suite-title {
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+
+
+
+.publishing-icon {
+    margin-bottom: 24px;
+    padding: 8px;
+}
+
+.publishing-icon img {
+    width: 72px;
+    height: 80px;
+}
+
+.home-publisher-item .imageframe-align-center {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-publisher-item h3 {
+    margin: 0px 0px 8px 0px;
+    font-weight: 600;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+}
+
+
+
+.publisher-suite-availability {
+    margin-top: 20px !important;
+    margin-bottom: 76px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+}
+
+.publisher-available {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 16px;
+    color: #cf0c4e;
+}
+
+
+/* Post template */
+.page-template-default #main {
+    padding-top: 0 !important;
+}
+
+.single-post .get-in-touch-section,
+.page-template-default .get-in-touch-section,
+.single-post .elife-supported,
+.page-template-default .elife-supported {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.page-template-default .fusion-page-title-bar {
+    height: auto;
+    margin-top: 72px;
+}
+
+.page-template-default .fusion-page-title-wrapper {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.single-post .fusion-page-title-bar {
+    display: none;
+}
+
+.single-post .fusion-post-title {
+    padding-bottom: 24px !important;
+}
+
+
+
+/* elife supporters */
+.elife-supported .imageframe-align-center {
+    padding: 12px;
+    align-self: center;
+}
+
+.hhmi-logo .fusion-column-wrapper,
+.welcome-logo .fusion-column-wrapper,
+.max-logo .fusion-column-wrapper,
+.kaw-logo .fusion-column-wrapper {
+    display: grid;
+    /* 	justify-items: center; */
+}
+
+.elife-supported-columns .fusion-row .fusion-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.hhmi-logo img {
+    width: 182px;
+    height: 30px;
+}
+
+.welcome-logo img {
+    width: 52px;
+    height: 52px;
+}
+
+.max-logo img {
+    width: 69px;
+    height: 50px;
+}
+
+.kaw-logo img {
+    width: 90px;
+    height: 52px;
+}
+
+.homepage-list ul {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+.fusion-footer footer .fusion-columns .fusion-column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#calc_shipping_state_field .select2-selection__placeholder,
+#comment-input .placeholder,
+#comment-input input,
+#comment-textarea .placeholder,
+#comment-textarea textarea,
+.avada-select .select2-container .select2-choice,
+.avada-select .select2-container .select2-choice2,
+.chzn-container .chzn-drop,
+.chzn-container-single .chzn-single,
+.comment-form-comment textarea,
+.fusion-body .avada-select-parent select,
+.fusion-search-form-clean .searchform .fusion-search-form-content .fusion-search-button input[type="submit"],
+.input-text,
+.main-nav-search-form input,
+.post-password-form label input[type="password"],
+.search-page-search-form input,
+.searchform .fusion-search-form-content .fusion-search-field input,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-results__option,
+.wpcf7-captchar,
+.wpcf7-form .wpcf7-date,
+.wpcf7-form .wpcf7-number,
+.wpcf7-form .wpcf7-quiz,
+.wpcf7-form .wpcf7-select,
+.wpcf7-form .wpcf7-text,
+.wpcf7-form textarea,
+.wpcf7-select-parent .select-arrow,
+input.s,
+input.s .placeholder,
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+select,
+textarea {
+    font-size: 16px !important;
+    line-height: 24px;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    color: #666666 !important;
+    padding: 12px !important;
+
+}
+
+.fusion-footer-widget-area,
+.fusion-footer-widget-area .jtwt,
+.fusion-footer-widget-area .jtwt .jtwt_tweet,
+.fusion-footer-widget-area .widget li.recentcomments,
+.fusion-footer-widget-area .widget_archive li,
+.fusion-footer-widget-area .widget_categories li,
+.fusion-footer-widget-area .widget_layered_nav li,
+.fusion-footer-widget-area .widget_links li,
+.fusion-footer-widget-area .widget_meta li,
+.fusion-footer-widget-area .widget_nav_menu li,
+.fusion-footer-widget-area .widget_pages li,
+.fusion-footer-widget-area .widget_product_categories li,
+.fusion-footer-widget-area .widget_recent_entries li,
+.fusion-footer-widget-area article.col {
+    color: #666666 !important;
+}
+
+
+
+.fusion-footer-copyright-area {
+    padding-top: 24px !important;
+    padding-bottom: 48px !important;
+}
+
+#custom_html-4,
+#custom_html-2 {
+    margin-bottom: 48px;
+}
+
+.copyright-first {
+    margin-top: 0;
+}
+
+.fusion-copyright-notice {
+    line-height: 20px;
+}
+
+
+
+.footer-navi {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-navi li {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#menu-footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu-footer-menu li {
+    margin: 18px;
+}
+
+#menu-footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+#menu-footer-menu .menu-item:hover:after {
+    display: none;
+}
+
+
+
+
+#menu-footer-menu li a {
+    color: #212121;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pair {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#wpcf7-f87-o1 .label,
+#wpcf7-f87-o2 .label {
+    display: grid;
+    grid-gap: 24px;
+    justify-items: center;
+}
+
+
+
+#wpcf7-f87-o1 .label span,
+#wpcf7-f87-o2 .label span {
+    margin: 0px 0px 0px 16px;
+    width: 288px;
+}
+
+#wpcf7-f87-o1 .your-email input,
+#wpcf7-f87-o2 .your-email input {
+    background: #f7f7f7;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    height: 48px;
+    width: 288px !important;
+    padding: 12px;
+}
+
+#wpcf7-f87-o1 .wpcf7-submit,
+#wpcf7-f87-o2 .wpcf7-submit {
+    border-radius: 4px;
+    /* 	height: 44px !important; */
+    text-transform: none;
+    background: #CF0C4E;
+    height: 48px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    line-height: 16px;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-weight: 600;
+    padding: 16px;
+    font-size: 16px;
+}
+
+#wpcf7-f87-o1 .wpcf7-submit:hover,
+#wpcf7-f87-o2 .wpcf7-submit:hover {
+    background-color: #7c072e;
+    text-decoration: none;
+}
+
+#wpcf7-f87-o1 .wpcf7-submit:focus,
+#wpcf7-f87-o2 .wpcf7-submit:focus {
+    background-color: #e26d94;
+}
+
+
+
+/* Alert */
+
+.wpcf7-mail-sent-ok,
+.elifelibero-warn-wrapper .notification-content {
+    background-color: #198536 !important;
+    border-bottom-color: #198536 !important;
+}
+
+.wpcf7-validation-errors {
+    background-color: #C93B3B !important;
+}
+
+#wpcf7-f87-o1 .wpcf7-not-valid-tip {
+    display: none;
+}
+
+.elifelibero-warn-wrapper {
+    background: #451339 !important;
+    margin-top: -20px !important;
+    width: 100% !important;
+}
+
+.wpcf7-response-output {
+
+    position: fixed !important;
+    bottom: 0 !important;
+    margin-bottom: 32px !important;
+    z-index: 999999 !important;
+    /* 	padding: 16px 21px 16px 56px !important; */
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important;
+    min-height: 56px !important;
+    max-width: 696px;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.elifelibero-warn-wrapper .notification-content {
+    position: fixed !important;
+    top: 0 !important;
+    margin-top: 24px !important;
+    z-index: 999999 !important;
+    padding: 16px !important;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important;
+    min-height: 56px !important;
+    max-width: 696px;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.fusion-widget-area .wpcf7-form,
+.elifelibero-warn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.fusion-alert-content-wrapper,
+.elifelibero-warn-wrapper .notification-content {
+    text-align: left !important;
+    padding-left: 38px !important;
+}
+
+.elifelibero-warn-wrapper .notification-content {
+    padding-left: 52px !important;
+}
+
+
+
+.wpcf7-response-output span,
+.elifelibero-warn-wrapper .notification-content {
+    color: #ffffff;
+    font-family: "Noto Sans", Arial, Sans-Serif !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-transform: none !important;
+}
+
+.wpcf7-mail-sent-ok .fa-check-circle {
+    color: #ffffff !important;
+    width: 20px;
+    height: 20px;
+}
+
+
+.wpcf7-response-output .toggle-alert,
+.elifelibero-warn-wrapper .close-button {
+    position: static !important;
+    border: none !important;
+    color: #ffffff !important;
+    padding: 0 !important;
+    height: 14px !important;
+    width: 14px !important;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    text-transform: lowercase !important;
+    font-weight: 400 !important;
+    margin-right: 5px !important;
+}
+
+.elifelibero-warn-wrapper .close-button {
+    margin-left: 5px !important;
+    position: absolute !important;
+    right: 21px !important;
+    top: 28% !important;
+}
+
+.elifelibero-warn-wrapper .notification-content {
+    position: relative !important;
+    padding-right: 38px !important;
+}
+
+
+.elifelibero-warn-wrapper .close-button:hover {
+    text-decoration: none;
+}
+
+.wpcf7-validation-errors .fusion-alert-content-wrapper:before {
+    content: " ";
+    color: #ffffff;
+    position: absolute;
+    left: 18px;
+    width: 20px;
+    height: 24px;
+    background: url("/wp-content/uploads/2019/07/Artboard_10-512.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wpcf7-mail-sent-ok .fusion-alert-content-wrapper:before,
+.elifelibero-warn-wrapper .notification-content:before {
+    content: " " !important;
+    color: #ffffff !important;
+    position: absolute !important;
+    width: 20px !important;
+    height: 24px !important;
+    left: 18px !important;
+    background: url("/wp-content/uploads/2019/07/check1.png") !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* div.wpcf7 .ajax-loader */
+.fusion-slider-loading {
+    margin-bottom: -42px !important;
+}
+
+.footer-socials ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials a {}
+
+.footer-socials ul a {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    /* 	padding: 10px; */
+    border-radius: 25px;
+    background: #666666;
+    margin: 0px 15px;
+    transition: 0.2s;
+    /* 	opacity: 0.8; */
+}
+
+.footer-socials ul img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-socials ul a:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Supporters */
+.elife-supported p {
+    font-size: 12px;
+    color: #666666;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 16px;
+}
+
+.elife-supported .home-second {
+    margin-bottom: 16px !important;
+}
+
+.elife-supported .supporters-images .fusion-column-wrapper {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Products */
+
+.product-button-container p {
+    text-align: center;
+}
+
+.register-interest {
+    border: 2px solid #CF0C4E !important;
+    background: #ffffff !important;
+    padding: 14px !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600 !important;
+    min-width: 216px;
+    height: 48px;
+    text-transform: none !important;
+}
+
+.register-interest span {
+    color: #CF0C4E;
+    font-size: 16px;
+}
+
+.register-interest:hover {
+    text-decoration: none;
+}
+
+.learn-more-button {
+    border-radius: 4px !important;
+    padding: 14px !important;
+    color: #ffffff;
+    background: #cf0c4e !important;
+    border: 2px solid #cf0c4e !important;
+    line-height: 16px !important;
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600;
+    min-width: 216px;
+    height: 48px;
+    text-transform: none !important;
+}
+
+.learn-more-button span {
+    font-size: 16px;
+
+}
+
+.libero-product,
+.libero-product-last {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.heading-h3 h1 {
+    margin-bottom: 0;
+}
+
+
+.learn-more-button:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+    background: #7c072e !important;
+    border-color: #7c072e !important;
+
+}
+
+.learn-more-button:focus {
+    background: #e26d94 !important;
+    border-color: #e26d94 !important;
+
+
+}
+
+.libero-products .fusion-row {
+    display: flex;
+    justify-content: center;
+}
+
+.libero-products-text p,
+.libero-products-text {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.libero-products h2 {
+    font-size: 28px !important;
+}
+
+.page-id-9 .fusion-checklist .fusion-li-item {
+    padding: 12px 0px 12px 0px !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-id-9 .fusion-checklist {
+    margin: 0;
+}
+
+
+/* Libero publisher */
+.libero-product-image img {
+    height: auto;
+    width: 100%;
+}
+
+.page-id-626 h1 {
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-size: 32px !important;
+    font-weight: 600;
+    line-height: 40px !important;
+}
+
+.libero-publisher-side-img img {
+    width: 100%;
+    height: auto;
+}
+
+.libero-publisher-side-img span {
+    width: 100%;
+    height: auto;
+}
+
+.libero-product-image .fusion-row .fusion-layout-column .fusion-column-wrapper .fusion-imageframe {
+    margin-top: -55px;
+    margin-bottom: -10px;
+}
+
+.see-github {
+    min-width: 197px;
+}
+
+.see-slack {
+    min-width: 210px;
+}
+
+.see-github-container {
+    width: 197px !important;
+    margin-right: 24px !important;
+}
+
+
+
+/* Support */
+
+.speak-to-us {
+    min-width: 168px;
+}
+
+.support-first .heading-h3:after {
+    left: 49%;
+}
+
+
+.page-id-11 .get-in-touch-section .heading-h3:after {
+    left: 49%;
+}
+
+.learn-more-support {
+    min-width: 168px;
+}
+
+/* Community */
+
+
+.join-community-section .heading-h3:after {}
+
+.community-columns .register-interest {
+    min-width: 208px;
+}
+
+.page-id-10 .get-in-touch-section .heading-h3:after {
+    left: 49%;
+}
+
+.mission-driven-img img {
+    max-width: 391px;
+}
+
+.designed-with-partners-img {
+    max-width: 496px;
+}
+
+.special-interest-groups img {
+    max-width: 494px;
+}
+
+.service-providers-img img {
+    max-width: 523px;
+}
+
+/* Contact */
+
+.form-email {
+    position: relative;
+}
+
+
+.contact-privacy {
+    /* position: absolute;
+	right: 0;
+	top: 2px; */
+}
+
+.contact-page-form label,
+#wpcf7-f7-p1171-o1 label {
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+
+.contact-text {
+    font-size: 18px;
+}
+
+.contact-page-form p,
+#wpcf7-f7-p1171-o1 p {
+    margin-bottom: 24px !important;
+}
+
+.contact-page-form input,
+#wpcf7-f7-p1171-o1 input {
+    background: #f7f7f7 !important;
+    border-radius: 4px !important;
+    height: 48px !important;
+    padding: 16px !important;
+    color: #666666 !important;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.contact-page-form textarea,
+#wpcf7-f7-p1171-o1 textarea {
+    resize: none;
+}
+
+.contact-page-form textarea::placeholder,
+#wpcf7-f7-p1171-o1 textarea::placeholder {
+    color: #666666 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.contact-page-form label br,
+#wpcf7-f7-p1171-o1 label br {
+    display: none;
+}
+
+.contact-page-form textarea,
+#wpcf7-f7-p1171-o1 textarea {
+    background: #f7f7f7 !important;
+    border-radius: 4px !important;
+    color: #666666 !important;
+    margin-top: 8px !important;
+    font-family: "Noto Sans", Arial, Sans-Serif !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.contact-page-form .wpcf7-submit,
+#wpcf7-f7-p1171-o1 .wpcf7-submit {
+    border-radius: 4px !important;
+    height: 48px !important;
+    padding: 16px !important;
+    text-transform: none !important;
+    background: #CF0C4E !important;
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600 !important;
+    transition: 0.2s !important;
+    color: #ffffff !important;
+    margin-top: 24px !important;
+    line-height: 16px !important;
+    min-width: 185px !important;
+
+}
+
+.contact-page-form .wpcf7-submit:hover,
+#wpcf7-f7-p1171-o1 .wpcf7-submit:hover {
+    text-decoration: none !important;
+    background-color: #7c072e !important;
+}
+
+.contact-page-form .wpcf7-submit:focus,
+#wpcf7-f7-p1171-o1 .wpcf7-submit:focus {
+    background-color: #e26d94 !important;
+}
+
+.contact-page-form input,
+#wpcf7-f7-p1171-o1 input {
+    margin-top: 8px !important;
+}
+
+.page-id-12 #main {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.email-privacy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-privacy p {
+    margin-bottom: 0 !important;
+}
+
+/* News */
+
+.page-id-13 .post {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 0;
+    width: 100%;
+}
+
+.news-first-text {
+    font-size: 18px;
+}
+
+.page-id-13 .fusion-recent-posts .fusion-load-more-button {
+    margin-top: 48px;
+    text-transform: none;
+    color: #ffffff;
+    background-color: #CF0C4E;
+    border-radius: 4px;
+    padding: 16px;
+    min-height: 48px;
+    width: 208px;
+    transition: 0.2s ease-in-out;
+    line-height: 16px;
+    font-family: "Noto Sans D", Arial, Sans-Serif !important;
+    font-weight: 600;
+    font-size: 16px;
+    height: 48px;
+    text-transform: none;
+    align-self: center;
+}
+
+.page-id-13 .fusion-load-more-button:hover {
+    color: #ffffff !important;
+    background: #7c072e !important;
+    text-decoration: none;
+
+}
+
+.page-id-13 .fusion-load-more-button:focus {
+    background: #e26d94;
+}
+
+.page-id-13 .fusion-recent-posts {
+    margin-bottom: 0;
+    display: grid;
+    justify-items: center;
+}
+
+
+.page-id-13 .fusion-recent-posts .fusion-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 48px;
+}
+
+
+
+.page-id-13 .fusion-recent-posts h4 {
+    padding: 24px 24px 16px 24px;
+    /* 	min-height: 160px; */
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.page-id-13 .fusion-recent-posts .fusion-columns .entry-title a {
+    color: #212121;
+    font-family: "Noto Sans D", Arial, Sans-Serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.page-id-13 .fusion-recent-posts .fusion-columns .recent-posts-content p {
+    padding: 0px 24px 56px 24px;
+    color: #212121;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-id-13 .fusion-recent-posts .fusion-columns .meta {
+    padding: 0px 24px 0px 24px !important;
+    color: #666666 !important;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* Single post */
+.single-post #main :first-child {
+    max-width: 100%;
+}
+
+.single-post .get-in-touch-section {
+    margin-top: 24px;
+}
+
+.page-template-default .get-in-touch-section {
+    margin-top: 72px;
+}
+
+.single-post .post-content,
+.page-template-default #main .fusion-row {
+    width: 100%;
+    max-width: none !important;
+}
+
+.single-post .entry-title {
+    max-width: 744px !important;
+    position: relative;
+    padding-top: 17px;
+}
+
+.single-post .get-in-touch-section .fusion-row {
+    max-width: 1128px !important;
+}
+
+.single-post .entry-title:after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    height: 3px;
+    background: #CF0C4E;
+    width: 24px;
+    left: 47%;
+    border-radius: 2px;
+}
+
+.single-post #content .post {
+    display: grid;
+    justify-items: center;
+}
+
+.max-width-container {
+    max-width: 648px;
+    margin: 0 auto;
+}
+
+.single-post h4 {
+    font-weight: 400;
+    font-family: "Noto Sans", Arial, Sans-Serif !important;
+    max-width: 744px !important;
+    margin: 0 auto;
+}
+
+.single-post .fusion-post-title {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+.single-post .entry-title:after {
+    /* 	content: " " !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  height: 3px !important;
+	background: #CF0C4E !important;
+	width: 24px !important;
+	left: 47.5% !important;
+	border-radius: 2px !important; */
+}
+
+.fwp-load-more {
+    margin-top: 48px;
+}
+
+
+
+/* 404 */
+
+.error404 .fusion-header,
+.error404 .fusion-footer {
+    display: none;
+}
+
+.error404 #main {
+    height: 100vh;
+}
+
+.error404 .title-sep {
+    display: none !important;
+}
+
+.error404 .post-content {
+    display: grid;
+    justify-content: center;
+}
+
+.error404 .error-page .fusion-column {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+}
+
+.return-home {
+    width: 100%;
+    text-align: center;
+}
+
+.error404 .fa-angle-right {
+    background: #CF0C4E;
+    border-radius: 4px;
+}
+
+.error404 .menu-item:hover:after {
+    display: none;
+}
+
+.error404 .menu-item:hover {
+    text-decoration: underline;
+}
+
+.error404 .searchform .fusion-search-form-content .fusion-search-button input[type=submit],
+.search-no-results .searchform .fusion-search-form-content .fusion-search-button input[type=submit],
+.search-results .searchform .fusion-search-form-content .fusion-search-button input[type=submit] {
+    padding: 0 !important;
+    background: #CF0C4E !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 48px;
+    width: 48px;
+    color: #ffffff !important;
+}
+
+.error404 .fusion-search-form-classic #bbpress-forums .bbp-search-form #bbp_search,
+.fusion-search-form-classic .searchform .fusion-search-form-content .fusion-search-field input,
+.search-no-results .fusion-search-form-classic #bbpress-forums .bbp-search-form #bbp_search,
+.fusion-search-form-classic .searchform .fusion-search-form-content .fusion-search-field input,
+.search-results .fusion-search-form-classic #bbpress-forums .bbp-search-form #bbp_search,
+.fusion-search-form-classic .searchform .fusion-search-form-content .fusion-search-field input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 48px;
+}
+
+.error404 .search-page-search-form,
+.search-no-results .fusion-error-page-search .searchform,
+.search-results .searchform {
+    margin-top: 24px !important;
+}
+
+.error404 .searchform .fusion-search-form-content .fusion-search-button input[type=submit]:hover,
+.search-no-results .searchform .fusion-search-form-content .fusion-search-button input[type=submit]:hover,
+.search-results .searchform .fusion-search-form-content .fusion-search-button input[type=submit]:hover {
+    background: #7c072e !important;
+}
+
+.error404 .searchform .fusion-search-form-content .fusion-search-button input[type=submit]:focus,
+.search-no-results .searchform .fusion-search-form-content .fusion-search-button input[type=submit]:focus,
+.search-results .fusion-search-form-content .fusion-search-button input[type=submit]:focus {
+    background: #e26d94 !important;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+
+    .showcase-button {}
+
+    .page-id-8 .fusion-header-wrapper .fusion-header,
+    .fusion-header-wrapper .fusion-secondary-main-menu,
+    .page-id-626 .fusion-header-wrapper .fusion-header {
+        background-color: #451339;
+    }
+
+    .fusion-mobile-nav-item a span {
+        color: #212121 !important;
+    }
+
+    .page-id-8 .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line,
+    .page-id-626 .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line {
+        background-color: #ffffff;
+    }
+
+
+    .fusion-flyout-active .fusion-header-has-flyout-menu-content {
+        width: 80%;
+        right: -28%;
+        position: relative;
+    }
+
+    .fusion-header-has-flyout-menu-content {
+        /* 		transition: all 0.3s !important; */
+    }
+
+
+    .fusion-flyout-active .fusion-flyout-mobile-menu-icons {
+        position: absolute !important;
+        left: 29px;
+        top: 17px;
+        margin: 0 !important;
+        width: 14px !important;
+        height: 14px !important;
+
+    }
+
+    .custom-menu-toggle {
+        position: absolute !important;
+        left: 29px;
+        top: 17px;
+        margin: 0 !important;
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -34.4% !important;
+    }
+
+    .fusion-logo-link img {
+        margin-top: 0;
+        /* 		margin-left: 0; */
+    }
+
+    .fusion-flyout-active .fusion-flyout-menu-toggle {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    /* Footer	 */
+    .form-holder {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 762px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -34.3% !important;
+    }
+}
+
+@media screen and (max-width: 657px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -34.2% !important;
+    }
+}
+
+@media screen and (min-width: 650px) {
+
+
+    /* CONTACT */
+    .contact-page-form .form-pair {
+        display: flex;
+        flex-wrap: wrap;
+        /* 		margin-bottom: 24px; */
+    }
+
+    .contact-page-form .form-pair :first-child {
+        /* 		margin-right: 24px; */
+    }
+
+    .contact-page-form form {
+        /* 		width: 600px; */
+    }
+
+    .contact-page-form .wpcf7 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-page-form .wpcf7 input {}
+
+    .form-pair label {
+        width: 264px;
+    }
+
+    .first-name {
+        margin-right: 24px;
+    }
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .desktop-padding {
+        padding: 0px 200px;
+    }
+
+    /* 	MENU */
+    .news-menu {
+        padding-right: 40px !important;
+    }
+
+    .get-in-touch-section p {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    /* Home	 */
+
+    /* Showcase	 */
+    .showcase-bg .fusion-column-wrapper {
+        margin-top: -100px;
+        width: 475px;
+        height: 455px;
+    }
+
+    .showcase-left {
+        width: calc(44% - ((4%) * 0.5)) !important;
+        margin-bottom: 148px;
+    }
+
+    .showcase-mobile-bg {
+        display: none;
+    }
+
+    .showcase-news .fusion-column-wrapper {
+        position: absolute;
+        top: -65px;
+        right: -30px;
+        width: 360px;
+        /* 		height: 168px; */
+    }
+
+    .showcase-title {
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+
+    .page-id-8 .home-first {
+
+        /* 		height: 80vh !important; */
+        min-height: 648px;
+    }
+
+    .page-id-626 .home-first {
+        min-height: 432px;
+    }
+
+    .page-id-626 .see-github {
+        min-width: 202px;
+    }
+
+
+
+    /* Supporters	 */
+    .supporters-images {
+        width: 192px;
+        height: 96px !important;
+    }
+
+    /* 	 Products  */
+    .libero-product {
+        border-right: 1px solid #e0e0e0;
+        padding-right: 28px;
+        margin-right: 28px !important;
+    }
+
+
+
+    /* 	Community */
+    .community-grid h3 {
+        /* 		min-height: 100px; */
+    }
+
+    .community-img-section> :first-child {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .join-community-text {
+        font-size: 16px !important;
+    }
+
+    /* 	Support */
+    .support-first h1 {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    /* 	News */
+    /* Single post */
+
+    .single-post .get-in-touch-section,
+    .page-template-default .get-in-touch-section,
+    .single-post .elife-supported,
+    .page-template-default .elife-supported {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+    .page-id-13 .fusion-recent-posts .fusion-columns img {
+        max-height: 216px;
+    }
+
+    /* 	FAQS */
+    .libero-products-text {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    /* 	Footer  */
+    #wpcf7-f87-o1 .wpcf7-submit,
+    #wpcf7-f87-o2 .wpcf7-submit {
+        min-width: 91px;
+    }
+
+    #wpcf7-f87-o1 .label,
+    #wpcf7-f87-o2 .label {
+        justify-items: center;
+    }
+
+    .wpcf7-response-output,
+    .elifelibero-warn-wrapper .notification-content {
+        width: 696px !important;
+    }
+}
+
+
+@media screen and (min-width: 1080px) {
+    .showcase-bg .fusion-column-wrapper {
+        height: 551px !important;
+        width: 580px;
+    }
+
+    .showcase-news .fusion-column-wrapper {
+        position: absolute;
+        top: -105px;
+        right: -65px;
+    }
+}
+
+@media screen and (min-width: 1128px) {
+
+    /* 	MENU */
+    .news-menu {
+        padding-right: 140px !important;
+    }
+
+    #menu-item-18:after,
+    #menu-item-18:hover:after {
+        left: 8.5% !important;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    /* 	Products */
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 970px) {
+    /* 	Products */
+
+    .libero-product {
+        padding-right: 25px;
+    }
+
+
+}
+
+
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 1180px) {
+    .product-button-container {
+        text-align: center;
+    }
+
+    .libero-products .fusion-checklist {
+        display: grid;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1180px) {
+
+    /* Products		 */
+    .libero-products .fusion-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px;
+    }
+
+    .libero-product {
+        margin-right: 24px !important;
+    }
+
+    .product-text p {
+        max-width: 415px !important;
+    }
+
+    .product-text {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .libero-products .fusion-layout-column {
+        width: 100% !important;
+    }
+
+    .libero-products .libero-product-second {
+        border: none !important;
+    }
+
+    .libero-products .fusion-row:before {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 645px) and (max-width: 900px) {
+    .showcase-mobile-bg {
+        display: grid;
+        justify-items: right;
+    }
+
+    .showcase-mobile-bg .fusion-column-wrapper {
+        width: 450px;
+        height: 430px !important;
+    }
+
+    .showcase-mobile-bg {
+        margin-bottom: 0;
+    }
+
+    .showcase-news .fusion-column-wrapper {
+        /* 		margin-top: 28px !important; */
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 348px;
+    }
+
+    .showcase-left .fusion-column-wrapper {
+        width: 47%;
+        margin-top: -80px;
+    }
+
+    .showcase-news {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1181px) {
+    .libero-product-last .fusion-column-wrapper {
+        /* 		margin-left: -14px !important; */
+    }
+
+    .libero-product-last .fusion-checklist {
+        margin-left: 8px !important;
+    }
+
+    .libero-product-last {
+        max-width: 220px;
+    }
+
+    .libero-product-last {
+        /* 		max-width: 220px; */
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    #main {
+        padding-top: 48px !important;
+    }
+
+    .page-id-8 #main,
+    .page-id-626 #main {
+        padding-top: 0 !important;
+    }
+
+    .fusion-toggle-icon-line {
+        height: 2px !important;
+        width: 19px !important;
+
+    }
+
+    .fusion-flyout-menu-toggle {
+        height: 12px !important;
+        width: 18px !important;
+        padding: 0 !important;
+    }
+
+    .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line {
+        background: #212121 !important;
+    }
+
+    .fusion-flyout-active .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line {
+        background: #212121 !important;
+    }
+
+    .page-id-8 .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line,
+    .page-id-626 .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line {
+        background: #ffffff !important;
+    }
+
+    .page-id-8 .fusion-flyout-active .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line,
+    .page-id-626 .fusion-flyout-active .fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line {
+        background: #212121 !important;
+    }
+
+    .fusion-flyout-menu-icons {
+        margin: 0 !important;
+    }
+
+    .fusion-logo {
+        margin-top: 12px !important;
+        margin-left: 4px !important;
+    }
+
+    .fusion-header {
+        padding-right: 19px;
+        padding-left: 16px;
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-flyout-cart-wrapper,
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-flyout-menu-toggle,
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-flyout-search-toggle,
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-flyout-sliding-bar-toggle {
+        /* 		padding: 0 !important; */
+    }
+
+    .page-id-8 .fusion-flyout-menu-toggle,
+    .page-id-626 .fusion-flyout-menu-toggle {
+        /* 		margin-top: 5px; */
+    }
+
+    .page-id-8 .fusion-header .fusion-logo,
+    .page-id-626 .fusion-header .fusion-logo {
+        margin-top: 12px;
+    }
+
+
+    .fusion-flyout-menu-active .fusion-toggle-icon-line {
+        width: 18px !important;
+
+    }
+
+
+    .fusion-fullwidth {
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+    .fusion-footer-widget-area {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+        padding-top: 52px !important;
+        padding-bottom: 24px !important;
+    }
+
+    .fusion-footer-copyright-area {
+        padding-bottom: 52px !important;
+    }
+
+
+    /* 	Home */
+
+    .showcase-bg {
+        display: none
+    }
+
+    .home-first {
+        padding-top: 0px !important;
+        padding-bottom: 24px !important;
+    }
+
+    .page-id-626 .home-first {
+        padding-top: 48px !important;
+    }
+
+    .home-first article {
+        margin-bottom: 0 !important;
+    }
+
+    .home-second-section {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+    }
+
+
+    .supporters-logos .fusion-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px;
+    }
+
+    .elife-logo,
+    .hindawi-logo {
+        justify-self: right;
+    }
+
+
+    .supporters-logos .fusion-row:before {
+        display: none;
+    }
+
+    .supporters-images .fusion-column-wrapper {
+        padding: 8px !important;
+    }
+
+    .home-publisher-item {
+        margin-bottom: 0 !important;
+        padding-left: 48px !important;
+        padding-right: 48px !important;
+    }
+
+    .home-publisher-item .publisher-suite-availability {
+        margin-bottom: 28px !important;
+    }
+
+    .home-third {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+    }
+
+    .home-third .fusion-builder-column-6 {
+        margin-bottom: 32px !important;
+    }
+
+    .home-publisher-item-4 .publisher-suite-availability {
+        margin-bottom: 52px !important;
+    }
+
+
+    .home-fourth {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+    }
+
+    .home-fourth ul {
+        margin-bottom: 24px;
+    }
+
+
+    .get-in-touch-section {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+    }
+
+
+    #wpcf7-f87-o1 .newsletter,
+    #wpcf7-f87-o2 .newsletter {
+        /* 		margin-left: 10px; */
+    }
+
+    #wpcf7-f87-o1 .label .pair br,
+    #wpcf7-f87-o1 .label p,
+    #wpcf7-f87-o2 .label p,
+    #wpcf7-f87-o2 .label .pair br {
+        display: none;
+    }
+
+    #wpcf7-f87-o1 .label,
+    #wpcf7-f87-o2 .label {
+        display: grid;
+        grid-gap: 24px;
+    }
+
+    #wpcf7-f87-o1 .newsletter,
+    #wpcf7-f87-o2 .newsletter {
+        max-width: 312px;
+        text-align: center;
+    }
+
+
+    #wpcf7-f87-o1 .your-email input,
+    #wpcf7-f87-o2 .your-email input {
+        width: 230px !important;
+        margin-right: 8px;
+    }
+
+    #wpcf7-f87-o1 .pair span,
+    #wpcf7-f87-o2 .pair span {
+        margin-left: 11px !important;
+    }
+
+    .submit-label {
+        background: #cf0c4e;
+        width: 48px;
+        height: 48px !important;
+        border-radius: 5px;
+        padding: 0px !important;
+    }
+
+    #wpcf7-f87-o1 .wpcf7-submit,
+    #wpcf7-f87-o2 .wpcf7-submit {
+        width: 48px !important;
+        margin-left: 0px;
+        color: transparent;
+        background: url("/wp-content/uploads/2019/05/Messaging-Paper-Plane212.png") !important;
+        /* 	background-size: contain !important; */
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    #wpcf7-f87-o1 .wpcf7-submit:hover,
+    #wpcf7-f87-o2 .wpcf7-submit:hover {
+        border: none;
+    }
+
+    #wpcf7-f87-o1 .label span,
+    #wpcf7-f87-o2 .label span {
+        width: 256px !important;
+    }
+
+    #wpcf7-f87-o1 .your-email input,
+    #wpcf7-f87-o2 .your-email input {
+        width: 256px !important;
+    }
+
+    /* Alert	 */
+
+    .wpcf7-response-output,
+    .elifelibero-warn-wrapper .notification-content {
+        width: 92% !important;
+    }
+
+
+    .elife-supported .elife-supported-columns .fusion-row:before {
+        display: none;
+    }
+
+
+    .elife-supported-columns .imageframe-align-center {
+        padding: 0px 0px 24px 0px;
+    }
+
+    .elife-supported-columns .fusion-row .fusion-column-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    /* 	Products */
+    .products-first {
+        padding-top: 0 !important;
+    }
+
+    .products-first .heading-h3:after {
+        left: 46%;
+    }
+
+    .products-first p {
+        padding-bottom: 48px !important;
+    }
+
+    .libero-products {
+        padding-bottom: 48px !important;
+    }
+
+    .libero-products .fusion-row {
+        display: grid;
+        justify-items: center;
+    }
+
+    .libero-products .fusion-layout-column {
+        /* 		padding-left: 46px; */
+        /* 		padding-right: 46px; */
+    }
+
+    .libero-products {
+        padding-top: 72px !important;
+    }
+
+
+    .libero-product {
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 32px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .libero-product,
+    .libero-product-last {
+        /* 		max-width: 312px; */
+        /* 		width: 312px; */
+    }
+
+
+
+    /* Libero product	 */
+    .libero-product-image {
+        padding-bottom: 24px !important;
+    }
+
+    .libero-product-image .fusion-imageframe {
+        padding-bottom: 12px;
+    }
+
+    .libero-product-image .fusion-imageframe {
+        margin-top: -18px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .libero-product-image img {
+        width: 100% !important;
+    }
+
+    .libero-publisher-side-img {
+        margin-bottom: 24px !important;
+    }
+
+    .reverse-mobile-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .community-grid .fusion-title {
+        margin-bottom: 0 !important;
+    }
+
+    .page-id-12 .fusion-title,
+    .page-id-13 .fusion-title {
+        margin-bottom: 0 !important;
+    }
+
+    .page-id-626 .community-img-section {
+        padding-top: 24px !important;
+        margin-bottom: 0;
+    }
+
+    .page-id-626 .get-in-touch-section {
+        margin-top: 24px !important;
+    }
+
+    .see-github,
+    .see-slack {
+        width: 312px;
+    }
+
+    .see-github-container {
+        margin-right: 0 !important;
+    }
+
+    .see-github-container,
+    .see-slack-container {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* 	Support */
+    .support-first {
+        padding-bottom: 24px !important;
+    }
+
+    .support-first {
+        padding-top: 0 !important;
+    }
+
+    .page-id-11 .register-interest {
+        margin-bottom: 24px;
+    }
+
+    .support-last {
+        margin-bottom: 48px !important;
+    }
+
+
+    /* 	Community */
+
+    .max-width-text {
+        max-width: 512px;
+    }
+
+    div.max-width-text-wrapper>.fusion-row:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.reverse-mobile>.fusion-row:first-child {
+        flex-direction: column-reverse;
+    }
+
+    .community-max-width-text .fusion-column-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .community-max-width-text .fusion-column-wrapper .fusion-text {
+        max-width: 512px;
+    }
+
+    .community-first {
+        padding-top: 0 !important;
+    }
+
+    .page-id-10 .libero-products-text {
+        margin-bottom: 24px !important;
+    }
+
+    .community-img-section {
+        margin-bottom: 24px;
+    }
+
+    .page-id-10 .libero-products {
+        padding-top: 24px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .page-id-10 .community-first-separator {
+        margin-top: 8px !important;
+    }
+
+    .page-id-10 .libero-products .fusion-layout-column {
+        margin-bottom: 48px !important;
+    }
+
+    .get-in-touch-section .heading-h3:after {
+        left: 49% !important;
+    }
+
+    .page-id-10 .community-columns .imageframe-align-center {
+        padding-top: 32px;
+    }
+
+
+    /* Contact */
+    .contact-container {
+        padding-top: 0 !important;
+        padding-bottom: 48px !important;
+    }
+
+    .contact-page-form .wpcf7-submit,
+    #wpcf7-f7-p1171-o1 .wpcf7-submit {}
+
+    .page-id-12 #main {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+
+    /* Libero Publisher */
+
+    .transitioning-first {
+        padding-top: 0 !important;
+        padding-bottom: 24px !important;
+    }
+
+    .how-can-right {
+        padding-top: 48px;
+    }
+
+    .how-can-last {
+        padding-bottom: 48px !important;
+    }
+
+    /* News */
+    .page-id-13 .fusion-recent-posts .fusion-columns {
+        grid-template-columns: 1fr 1fr !important;
+        grid-gap: 24px !important;
+        margin: 0 !important;
+    }
+
+    .page-id-13 .fusion-recent-posts .fusion-columns .post {
+        margin: 0;
+    }
+
+    .page-id-13 .fusion-recent-posts .fusion-load-more-button {
+        margin-top: 24px !important;
+    }
+
+    .news-first {
+        padding-top: 0 !important;
+    }
+
+    .news-container {
+        padding-bottom: 48px !important;
+    }
+
+    .single-post #main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .max-width-container {
+        max-width: 100% !important;
+    }
+
+    .single-post .get-in-touch-section {
+        margin-top: 24px !important;
+    }
+
+    .fwp-load-more {
+        margin-top: 24px;
+    }
+
+    /* Single post */
+    .single-post .entry-title {
+        padding-top: 0;
+    }
+
+    .post-subtitle {
+        padding-bottom: 24px !important;
+    }
+
+    .page-template-default .fusion-page-title-bar {
+        margin-top: 48px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    /* 	Community */
+    .join-community-title:after {
+        left: 45.5%;
+    }
+
+    /* 	Footer */
+    #menu-footer-menu {
+        display: grid;
+        grid-row-gap: 12px;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* padding: 10px; */
+        /*     width: 100%; */
+        justify-items: center;
+    }
+
+    .menu-item-217 {
+        margin-left: 32px !important;
+    }
+
+    .contact-page-form br,
+    #wpcf7-f7-p1171-o1 br {
+        display: none !important;
+    }
+
+    .contact-page-form .first-name-input,
+    #wpcf7-f7-p1171-o1 .first-name-input {
+        margin-bottom: 24px !important;
+    }
+
+    .contact-text {
+        margin-bottom: 48px !important;
+    }
+
+    /* News	 */
+    .page-id-13 .fusion-recent-posts .fusion-columns {
+        grid-template-columns: 1fr !important;
+        row-gap: 24px !important;
+    }
+
+    .page-id-13 .fusion-recent-posts .fusion-load-more-button {
+        width: 100% !important;
+    }
+
+    /* Single post */
+    .single-post .entry-title {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+    /* Contact	 */
+    .last-name-input {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #content {
+        margin-bottom: 0 !important;
+    }
+
+    .fusion-widget-area .fusion-column {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .showcase-mobile-bg {
+        display: grid;
+        justify-items: center;
+    }
+
+    .showcase-mobile-bg .fusion-column-wrapper {
+        width: 275px !important;
+        height: 260px !important;
+    }
+
+    .home-first .showcase-mobile-bg {
+        margin-bottom: 24px !important;
+    }
+
+    .showcase-news {
+        margin-top: 28px !important;
+    }
+}
+
+@media screen and (max-width: 626px) {
+
+    /* Alert	 */
+    .wpcf7-mail-sent-ok .toggle-alert {
+        margin-top: 13px !important;
+    }
+
+    .wpcf7-mail-sent-ok .fusion-alert-content-wrapper:before {
+        top: 28px !important;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -34% !important;
+    }
+
+    #menu-widget-2 li {
+        margin-bottom: 20px;
+    }
+
+    /* Elife Supported	 */
+    .hhmi-logo,
+    .max-logo,
+    .welcome-logo {
+        margin-left: 24px;
+    }
+
+    .kaw-logo {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .elifelibero-warn-wrapper .close-button {
+        top: 36% !important;
+    }
+
+    .elifelibero-warn-wrapper .notification-content:before {
+        top: 26px !important;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .home-third .heading-h3:after {
+        left: 45%;
+    }
+
+    .fwp-load-more {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .libero-product-image .fusion-column-wrapper {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    /* Home	 */
+}
+
+@media screen and (max-width: 470px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -33.8% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .wpcf7-response-output .toggle-alert,
+    .elifelibero-warn-wrapper .close-button {
+        /* margin-top: 12px; */
+    }
+
+    .fusion-alert-content-wrapper:before {
+        top: 26px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -33.7% !important;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .get-in-touch-section .heading-h3:after {
+        left: 46% !important;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .wpcf7-mail-sent-ok .toggle-alert {
+        margin-top: 26px !important;
+    }
+
+    .wpcf7-mail-sent-ok .fusion-alert-content-wrapper:before {
+        top: 40px !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -33.6% !important;
+    }
+
+    .wpcf7-response-output {
+        left: 12px;
+        right: 12px;
+    }
+
+
+    #wpcf7-f87-o1 .label .pair,
+    #wpcf7-f87-o2 .label .pair {
+        /* 		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: stretch;
+		justify-items: center; */
+    }
+
+    #wpcf7-f87-o1 .your-email input,
+    #wpcf7-f87-o2 .your-email input {
+        width: 206px !important;
+    }
+
+    #menu-footer-menu li {
+        margin: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .fusion-footer-widget-area {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+
+    }
+
+
+    /* Elife Supported	 */
+    .hhmi-logo {
+        margin-left: 12px;
+    }
+
+    .kaw-logo {
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .elifelibero-warn-wrapper .close-button {
+        top: 38% !important;
+    }
+
+    .elifelibero-warn-wrapper .notification-content:before {
+        top: 41px !important;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -33.5% !important;
+    }
+}
+
+
+
+@media screen and (max-width: 335px) {
+
+    #wpcf7-f87-o1 .your-email input,
+    #wpcf7-f87-o2 .your-email input {
+        width: 182px !important;
+    }
+
+    #menu-footer-menu li {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .fusion-flyout-active .fusion-logo {
+        margin-left: -33.4% !important;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .page-id-12 .width-100 .nonhundred-percent-fullwidth {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+
+
+
+
+/* MS facet */
+
+@media screen and (-ms-high-contrast:active),
+all and (min-width: 600px) and (-ms-high-contrast:none) {
+    .page-id-13 .fusion-recent-posts .fusion-columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .page-id-13 .fusion-recent-posts .fusion-column {
+        margin: 0.16%;
+        width: 33%;
+    }
+
+
+}
+
+@media screen and (-ms-high-contrast:active),
+all and (max-width: 900px) and (-ms-high-contrast:none) {
+    .supporters-images .fusion-column-wrapper {
+        margin: 12px;
+    }
+
+
+}
+
+
+/* Privacy bar */
+
+.fusion-privacy-bar-main a {
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.fusion-privacy-bar-main a:hover {
+    color: #ffffff !important;
+    opacity: 0.8 !important;
+}
+
+.fusion-privacy-bar-main .fusion-privacy-bar-acceptance {
+    background: #198536;
+    color: #ffffff;
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    border-radius: 4px;
+    text-decoration: none !important;
+    height: 48px;
+    padding: 16px;
+    min-width: 72px;
+}
+
+.fusion-privacy-bar-main .fusion-privacy-bar-acceptance:focus {
+    background: #59cf78;
+
+}
+
+
+.fusion-privacy-bar-main .fusion-privacy-bar-acceptance:hover {
+    background: #59cf78;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+
+}
+
+.fusion-privacy-bar-acceptance span {
+    font-family: "Noto Sans", Arial, Sans-Serif;
+    font-size: 14px;
+}

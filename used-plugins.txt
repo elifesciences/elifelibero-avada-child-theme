@@ -1,0 +1,6 @@
+The used ones are:
+Contact Form 7 - https://contactform7.com/
+FacetWP, FacetWP - Load More - https://facetwp.com/
+Fusion builder, fusion core - http://www.theme-fusion.com/
+Stream - https://wp-stream.com/
+Yoast - https://yoast.com/

@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Noto Sans D" !important;
+    font-weight: 600 !important;
+    color: #212121 !important;
+}
+
+h1 {
+    line-height: 40px !important;
+    margin-bottom: 24px !important;
+}
+
+h2 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+}
+
+h3 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+
+h4 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+h5 {
+    font-size: 12px !important;
+}
+
+a {
+    color: #cf0c4e !important;
+}
+
+p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-family: "Noto Sans" !important;
+    color: #212121 !important;
+}

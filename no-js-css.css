@@ -1,0 +1,342 @@
+/* No JS Nav */
+
+a {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: tomato;
+}
+
+#menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+/*
+ hamburger
+  */
+#menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+/*
+  * Just a quick hamburger
+  */
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+#menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+  * But let's hide the middle one.
+  */
+#menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+  * Ohyeah and the last one should go the other direction
+  */
+#menuToggle input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #CF0C4E;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/*
+  * And let's slide it in from the left
+  */
+#menuToggle input:checked~ul {
+    transform: none;
+}
+
+
+/* custom */
+
+.home-first {
+    height: auto;
+}
+
+#menuToggle {
+    width: 90%;
+}
+
+#content {
+    z-index: 0 !important;
+}
+
+.no-js-nav a {
+    color: #ffffff;
+}
+
+.no-js-nav {
+    height: 60px;
+    background: #451339;
+}
+
+.middle-span {
+    /* 	transform: rotate(-45deg) translate(-8px, 1px) !important; */
+}
+
+.no-js-nav #menuToggle {
+    top: 20px;
+}
+
+.no-js-nav span {
+    background: #ffffff !important;
+}
+
+.no-js-logo-link {
+    float: right;
+    /* 	width: 120px; */
+    margin-top: -18px;
+    margin-right: 10px;
+}
+
+.no-js-logo-link img {
+    width: 120px;
+}
+
+.fusion-mobile-logo {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 900px) {
+    .fusion-header-wrapper {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .no-js-nav {
+        display: none;
+    }
+}
+
+
+
+/* News */
+.page-id-13 .pagination {
+    display: flex !important;
+}
+
+.page-id-13 .fusion-load-more-button {
+    display: none !important;
+}
+
+.fusion-flexslider .slides li {
+    display: contents;
+}
+
+
+
+
+
+
+/* Alert */
+
+.wpcf7-mail-sent-ok,
+.elifelibero-warn-wrapper .notification-content {
+    background-color: #198536 !important;
+    border-bottom-color: #198536 !important;
+}
+
+.wpcf7-validation-errors {
+    background-color: #C93B3B !important;
+}
+
+#wpcf7-f87-o1 .wpcf7-not-valid-tip {
+    display: none;
+}
+
+.elifelibero-warn-wrapper {
+    background: #451339;
+}
+
+.wpcf7-response-output {
+    position: fixed !important;
+    bottom: 0 !important;
+    margin-bottom: 32px !important;
+    z-index: 999999 !important;
+    padding: 16px !important;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important;
+    min-height: 56px !important;
+    max-width: 696px;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.elifelibero-warn-wrapper .notification-content {
+    position: fixed !important;
+    top: 0 !important;
+    margin-top: 24px !important;
+    z-index: 999999 !important;
+    padding: 16px !important;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important;
+    min-height: 56px !important;
+    max-width: 696px;
+    border-radius: 4px !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.fusion-widget-area .wpcf7-form,
+.elifelibero-warn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.fusion-alert-content-wrapper,
+.elifelibero-warn-wrapper .notification-content {
+    text-align: left !important;
+}
+
+.wpcf7-response-output span,
+.elifelibero-warn-wrapper .notification-content {
+    color: #ffffff;
+    font-family: "Noto Sans" !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-transform: none !important
+}
+
+.wpcf7-mail-sent-ok .fa-check-circle {
+    color: #ffffff !important;
+    width: 20px;
+    height: 20px;
+}
+
+.wpcf7-response-output .toggle-alert,
+.elifelibero-warn-wrapper .close-button {
+    position: static;
+    border: none;
+    color: #ffffff !important;
+    padding: 0;
+    height: 14px;
+    width: 14px;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-weight: 400 !important;
+}
+
+
+.elifelibero-warn-wrapper .close-button:hover {
+    text-decoration: none;
+}
